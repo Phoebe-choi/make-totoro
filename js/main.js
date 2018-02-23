@@ -7,13 +7,13 @@
 		 .siblings('.active').removeClass('active')
 		 switch(speed){
 		 	case'slow':
-		 		duration=60
+		 		duration=50
 		 		break
 		 	case'normal':
-		 		duration=30
+		 		duration=10
 		 		break
 		 	case 'fast':
-		 		duration=5
+		 		duration=3
 		 		break
 		 }
 	})
