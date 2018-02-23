@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::after {
+  box-sizing: border-box;
+}
+
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.code-wrapper {
+  flex: 1;
+  height: 20%;
+  padding: 10px;
+}
+
+.preview-wrapper {
+  flex: 1;
+  height: 80%;
+}
+
+#code {
+  overflow: hidden;
+  height: 100%;
+}
+#totoro{
+  top:90px;
+}
+.actions {
+  top: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+}
+
+.actions>button {
+  border: none;
+  background: #F2F2F2;
+  padding: 4px 6px;
+  margin: 6px;
+  border-radius: 2px;
+}
+
+.actions>button.active {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.actions>button:focus {
+  outline: none;
+}
