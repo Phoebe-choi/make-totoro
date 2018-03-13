@@ -7,13 +7,13 @@
 		 .siblings('.active').removeClass('active')
 		 switch(speed){
 		 	case'slow':
-		 		duration=50
+		 		duration=20
 		 		break
 		 	case'normal':
-		 		duration=10
+		 		duration=5
 		 		break
 		 	case 'fast':
-		 		duration=3
+		 		duration=1
 		 		break
 		 }
 	})
@@ -39,7 +39,7 @@
  *准备~
  */
 .preview {
-  height: 100%;
+  height:100%;
   display:flex;
   justify-content: center;
   align-items: center;
@@ -47,8 +47,8 @@
 }
 .wrapper {
   position: relative;
-  width:88%;
-  height:382px;
+  width:50%;
+  height:390px;
 }
 /*
  *画个大鼻子~
@@ -218,7 +218,7 @@
   display: inline-block;
 }
 /*
- *还有你的大肚腩
+ *还有大肚腩
  */
 .belly {
   position: absolute;
@@ -430,7 +430,7 @@ z-index: 2;
   border-top-right-radius: 50% 15px;
 }
 /*
- *画好啦，一只可爱的龙猫送给你~
+ *一只可爱的龙猫画好啦~
  */
 `
 	writeCode('', code)
